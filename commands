@@ -1,0 +1,2 @@
+tmux new -s concordium_node
+./concordium-node --listen-middleware-address 173.212.205.2
