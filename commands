@@ -1,6 +1,6 @@
 cd Documents/concordium-software
 tmux new -s concordium_node
-Node Başlatma: ./concordium-node --listen-middleware-address --no-block-state-import 173.212.205.2
+Node Başlatma: ./concordium-node --listen-middleware-address 173.212.205.2 --no-block-state-import
 Node Durdurma: ./concordium-node-stop
 Node Resetleme: ./concordium-node-reset-data
 
