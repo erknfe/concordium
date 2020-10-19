@@ -1,9 +1,9 @@
 cd Documents/concordium-software
 tmux new -s concordium_node
-Node Başlatma: ./concordium-node --listen-middleware-address 173.212.205.2
+Node Başlatma: ./concordium-node --listen-middleware-address --no-block-state-import 173.212.205.2
 Node Durdurma: ./concordium-node-stop
 Node Resetleme: ./concordium-node-reset-data
 
 
-docker exec -it concordium-client /bin/bash
-
+client registration command
+./concordium-client baker add baker-credentials01.json --sender 45At3vkVVPn2ixxGmjXLqDzGR6SKjrGHyKqhk7ngkEgVD9Ypg6
