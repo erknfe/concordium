@@ -7,3 +7,7 @@ Node Resetleme: ./concordium-node-reset-data
 
 client registration command
 ./concordium-client baker add baker-credentials01.json --sender 45At3vkVVPn2ixxGmjXLqDzGR6SKjrGHyKqhk7ngkEgVD9Ypg6
+
+
+update reward account
+./concordium-client baker set-account 555 Erkan-1 --sender 45At3vkVVPn2ixxGmjXLqDzGR6SKjrGHyKqhk7ngkEgVD9Ypg6
