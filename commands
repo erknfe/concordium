@@ -11,3 +11,7 @@ client registration command
 
 update reward account
 ./concordium-client baker set-account 555 Erkan-1 --sender 45At3vkVVPn2ixxGmjXLqDzGR6SKjrGHyKqhk7ngkEgVD9Ypg6
+
+
+log alma
+./concordium-node-retrieve-logs
